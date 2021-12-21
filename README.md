@@ -1,2 +1,3 @@
 # carly-portfolio
--portfolio- 2022
+
+This is a front-end project running Next.js in react and typescript, using Tailwind css. 
