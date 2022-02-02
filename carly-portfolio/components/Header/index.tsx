@@ -1,9 +1,10 @@
 const Header = () => (
-    <a href="/" className="hover:scale-150 focus:ring focus:ring-violet-300 rounded-lg">
-        <h1 className="py-14 md:py-24 tracking-wide leading-relaxed antialiased text-6xl md:text-8xl text-center text-white font-playfair">
-            Carly Richardson
+    <nav className="">
+        <h1 className=" bg-gray-900 mt-3 p-4 mb-36 mx-auto max-w-max antialiased text-sm text-center text-amber-200 font-press-start hover:text-white transition duration-150 ease-out">
+            <a href="/" className="p-1 focus:ring focus:ring-amber-300 rounded-lg">CARLY RICHARDSON        </a>
         </h1>
-    </a>
+
+    </nav>
 );
 
-export default Header;
+export default Header; 
