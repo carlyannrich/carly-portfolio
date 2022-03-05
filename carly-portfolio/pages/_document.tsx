@@ -14,14 +14,12 @@ class MyDocument extends Document {
                 <Head>
                     <link rel="icon" href="/favicon.ico" />
                     <link
-                        href="https://fonts.googleapis.com/css2?family=Inter&family=Press+Start+2P&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=Inter&family=Press+Start+2P&DM+Mono:wght@300;400&display=swap"
                         rel="stylesheet"
                     />
                 </Head>
-                <body className="bg-gray-800">
-                    <section className='bg-star-bg h-[50px]'>
-                        <Header />
-                    </section>
+                <body className="bg-gray-900">
+                    <Header />
                     <Main />
                     <Footer />
                     <NextScript />

@@ -6,12 +6,9 @@ module.exports = {
   theme: {
     fontFamily: {
       'inter': ['Inter', 'sans-serif'],
-      'press-start': ['"Press Start 2P"', 'cursive']
+      'dm-mono': ['DM Mono', 'monospace'],
     },
     extend: {
-      backgroundImage: {
-        'star-bg': "url('/symbol-scatter-haikei.svg')",
-      }
     }
   }
   // plugins: [],
