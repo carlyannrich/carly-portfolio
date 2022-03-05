@@ -13,7 +13,7 @@ const Researcher: NextPage = () => (
             <h2 className='h-[100px] lg:h-[150px] antialiased text-3xl lg:text-8xl text-center text-gray-50 uppercase tracking-tighter'>Ac⟁demic Researcher</h2>
         </div>
         <div>
-            <Image src={Moondial} />
+            <Image src={Moondial} alt='Moon dial from Cosmographia - Peter Apian' />
         </div>
         <div className='text-white font-dm-mono mt-20 mb-10 mx-10'>
             <div className='items-center flex-col flex gap-2 mb-20'>
@@ -26,7 +26,7 @@ const Researcher: NextPage = () => (
             </div>
         </div>
         <div className='grid grid-cols-1 items-center border-t lg:grid-cols-2 mb-8 py-10'>
-            <div className='text-white font-dm-mono mx-10'>
+            <div className='text-white font-dm-mono mb-20 lg:mb-0 mx-10'>
                 <div className='text-center font-semibold font-inter uppercase'>
                     <span className='text-5xl'>✯</span>
                     <ul className='py-3 text-xl flex flex-col gap-2'>
@@ -41,24 +41,24 @@ const Researcher: NextPage = () => (
                 </div>
             </div>
             <div className='text-white font-dm-mono mx-10'>
-                <p className='mx-auto mb-4'>My research focuses on the accessibility of astronomical knowledge in the early modern period through paper moveable instruments, namely volvelles.</p>
-                <p className='mx-auto mb-4'>I use Peter Apian's <i>Cosmographia</i> as a case study item. Particularly, a copy of this book that is held at the John Rylands Library. This copy includes handmade volvelles that were added by a previous owner.</p>
-                <p className='mx-auto mb-4'>I explore how learning through the tactile and visual senses allows Visual Thinking and Material Engagement and therefore a wider audience were able to utilise volvelles as a pedagogical tool.</p>
+                <p className='mx-auto mb-10 lg:mb-4'>My research focuses on the accessibility of astronomical knowledge in the early modern period through paper moveable instruments, namely volvelles.</p>
+                <p className='mx-auto mb-10 lg:mb-4'>I use Peter Apian's <i>Cosmographia</i> as a case study item. Particularly, a copy of this book that is held at the John Rylands Library. This copy includes handmade volvelles that were added by a previous owner.</p>
+                <p className='mx-auto mb-10 lg:mb-4'>I explore how learning through the tactile and visual senses allows Visual Thinking and Material Engagement and therefore a wider audience were able to utilise volvelles as a pedagogical tool.</p>
                 <p className='mx-auto'>Additionally, I explore how these volvelles are digitally represented in collections today. Is the interactivity of a volvelle shown in digital facsimiles of these book pages? My next project is working on a solution to this, to allow a remote audience to engage and interact with volvelles - as the volvelles were originally intended to be used.</p>
             </div>
         </div>
-        <div className='flex flex-row-reverse items-center border-t mb-8 py-10'>
-            <div className='text-center text-white mx-10'>
-                <h3 className='font-semibold font-inter uppercase'>Exhibition</h3>
-                <p className='font-dm-mono font-semibold my-4'>Rylands Gallery in the John Rylands Library, Manchester.</p>
+        <div className='grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center border-t mb-8 py-10'>
+            <div className='mx-10 lg:mx-0'>
+                <Image className='mx-auto' width={300} height={400} src={Exhibition2} alt='Exhibition at the John Rylands Library - case 1' />
+
+                <Image className='mx-auto' width={300} height={400} src={Exhibition3} alt='Exhibition at the John Rylands Library - case 2' />
+            </div>
+            <div className='text-center text-white mx-10 lg:mx-20 mt-8 lg:mt-0'>
+                <h3 className='font-semibold font-inter uppercase'>Exhibition of astronomical volvelles</h3>
+                <p className='font-dm-mono font-bold my-4'>Rylands Gallery in the John Rylands Library, Manchester.</p>
                 <p className='font-dm-mono'>December 2021 - May 2022.</p>
+                <p className='font-dm-mono my-10'>This exhibition displayed several books and digital facsimiles that featured astronomical volvelles, based off of my research for my MA thesis. With thanks to items or digital facsimiles from the John Rylands Library, Chethams Library and The Old Library, Magdalen College Oxford.</p>
             </div>
-            <div>
-                <Image width={300} height={400} src={Exhibition2} />
-
-                <Image width={300} height={400} src={Exhibition3} />
-            </div>
-
         </div>
 
 
