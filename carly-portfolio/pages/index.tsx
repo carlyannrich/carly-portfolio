@@ -34,10 +34,10 @@ const Home: NextPage = () => {
         </div>
         {/* Academic Researcher */}
         <div className='mx-10 mt-20 h-[160px]'>
-          <a onMouseEnter={() => showResDescription(true)} onMouseLeave={() => showResDescription(false)} href='/developer'>
+          <a onMouseEnter={() => showResDescription(true)} onMouseLeave={() => showResDescription(false)} href='/researcher'>
             <motion.h2 whileHover={{ scale: 1.3 }}
               whileTap={{ scale: 0.7 }} transition={{ ease: "easeOut", duration: 1 }} className='h-[100px] lg:h-[150px] antialiased text-3xl lg:text-8xl text-center text-gray-50 uppercase hover:underline tracking-tighter
-              '>ac⟁demic Researcher</motion.h2>
+              '>Ac⟁demic Researcher</motion.h2>
           </a>
           <AnimatePresence>
             {resDescription && (
