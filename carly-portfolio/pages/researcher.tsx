@@ -57,7 +57,8 @@ const Researcher: NextPage = () => (
                 <h3 className='font-semibold font-inter uppercase'>Exhibition of astronomical volvelles</h3>
                 <p className='font-dm-mono font-bold my-4'>Rylands Gallery in the John Rylands Library, Manchester.</p>
                 <p className='font-dm-mono'>December 2021 - May 2022.</p>
-                <p className='font-dm-mono my-10'>This exhibition displayed several books and digital facsimiles that featured astronomical volvelles, based off of my research for my MA thesis. With thanks to items or digital facsimiles from the John Rylands Library, Chethams Library and The Old Library, Magdalen College Oxford.</p>
+                <p className='font-dm-mono my-10'>This exhibition displayed several books and digital facsimiles that featured astronomical volvelles, based off of my research for my MA thesis.</p>
+                <p className='font-dm-mono mb-10'> With thanks to items or digital facsimiles from: the John Rylands Library in Manchester, Chetham's Library in Manchester, and The Old Library, Magdalen College in Oxford.</p>
             </div>
         </div>
 
