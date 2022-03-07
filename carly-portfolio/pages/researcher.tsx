@@ -15,7 +15,7 @@ const Researcher: NextPage = () => (
         <div>
             <Image src={Moondial} alt='Moon dial from Cosmographia - Peter Apian' />
         </div>
-        <div className='text-white font-dm-mono mt-20 mb-10 mx-10'>
+        <div className='text-white text-center font-dm-mono mt-20 mb-10 mx-10'>
             <div className='items-center flex-col flex gap-2 mb-20'>
                 <h3 className='font-semibold'>BA Classical Studies</h3>
                 <p>University of Manchester</p><p>2016</p>
